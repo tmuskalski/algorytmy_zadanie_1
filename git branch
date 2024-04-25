@@ -1,0 +1,41 @@
+[33mcommit c83e0cfd58c685f4e5fb76bb5384f776f3c2ce65[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mlogowanie[m[33m)[m
+Author: Tomasz <tomaszmuskalski@tlen.pl>
+Date:   Thu Apr 25 08:36:50 2024 +0200
+
+    dodaje nowy dokument
+
+[33mcommit 8c41c0e47f390df3a6c5b71a2bbadb26781263a7[m
+Author: Tomasz <tomaszmuskalski@tlen.pl>
+Date:   Thu Apr 25 07:49:00 2024 +0200
+
+    dodaje plik 2
+
+[33mcommit a9018631772aa718d7a726e3727ca96592bd480d[m
+Author: Tomasz <tomaszmuskalski@tlen.pl>
+Date:   Thu Apr 25 07:44:45 2024 +0200
+
+    dodaje jeszcze raz komentarz bo moglo sie nie udac
+
+[33mcommit 8d90ab3d1e2f175baab5a284449419487a1c5186[m
+Author: Tomasz <tomaszmuskalski@tlen.pl>
+Date:   Thu Apr 25 07:30:51 2024 +0200
+
+    dodałem swoj plik - na windows komenda to new-Items nazwa_pliku.txt a na linuxa czy ios to touch nazwa_plik.txt
+
+[33mcommit 58b94a8785eaca20bcd701fca5502cc4e66b3c4c[m[33m ([m[1;32mlog[m[33m)[m
+Author: Tomasz <tomaszmuskalski@tlen.pl>
+Date:   Thu Apr 25 07:06:21 2024 +0200
+
+    dodaje wszystkie pliki za pomocą 1 komendy
+
+[33mcommit 9c51617becb5469ef86af0c67e319618c0b7d7fe[m
+Author: Tomasz <tomaszmuskalski@tlen.pl>
+Date:   Thu Apr 25 07:02:57 2024 +0200
+
+    dodalem kolejny dokument
+
+[33mcommit be485cbbc4530a568d88d38cc41cd0dd561a5d23[m
+Author: Tomasz <tomaszmuskalski@tlen.pl>
+Date:   Thu Apr 25 06:56:11 2024 +0200
+
+    dodaje 2 pliki app i program
