@@ -21,6 +21,7 @@ namespace oliczenia_06_04
             Printarray(tab);
             string wynik2 = SprawdzKolejnosc(tab);
             Console.WriteLine($"Czy liczby są ustawione w kolejności rosnącej po sortowaniu? {wynik2}");
+            Console.WriteLine("dodaje sciezke testowa aby pobawic sie gitem");
 
         }
 

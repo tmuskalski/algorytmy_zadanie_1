@@ -1,0 +1,88 @@
+4) Napisz program, który stworzy tablice statyczną, posortuje ją algorytmem sortowania 
+przez scalanie, a następnie wypisze jej zawartość. 
+
+Czy dobrze napisałem program ?
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace cwiczenia_Sortowanie_przez_Scalanie
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] tablica = { 1, 212, 35, 4, 5, 64, 27, 128, 9, 10, 11, };
+
+            pokazywanie(tablica);
+            Console.WriteLine("wartości PO sortowaniem: ");
+            MergSort(tablica);
+            pokazywanie(tablica);
+            Console.WriteLine("wartości PO funkcji: ");
+            Array.Sort(tablica);
+            pokazywanie(tablica);
+        }
+
+        private static void MergSort(int[] tablica)
+        {
+            throw new NotImplementedException();
+        }
+
+        private static void MergSort(int [] tablica, int p, int q )
+        {
+            if (p == q)
+            {
+                int s = (p + q);
+
+                MergSort(tablica, p, q);
+                MergSort(tablica, s + 1, q);
+
+
+               
+                int i = p;
+                int j = s + 1;
+             
+
+
+                for (int k = p; k <= q; k++)
+                {
+                    
+                    if (j > q || (i <= s && tablica[i] < tablica[j]))
+                    {
+                        tablica[k] = tablica[i];
+                        i++;
+                    }
+                    else
+                    {
+                        tablica[k] = tablica[j];
+                        j++;
+                    }
+
+                }
+                for (int k = p; k <= q; k++)
+                {
+                    tablica[k] = tablica[k];
+
+                }
+                return;
+            }
+        }
+
+        private static void pokazywanie(int[] tablicaDoPokazywania)
+        {
+            foreach (int i in tablicaDoPokazywania)
+            {
+                Console.Write(i);
+                Console.Write(": ");
+            }
+        }
+
+
+
+
+
+    }
+}
